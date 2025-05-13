@@ -1,5 +1,5 @@
 === Auto Apply Coupon by Cart Total for WooCommerce ===
-Contributors: yourwpusername
+Contributors: devlaju
 Tags: woocommerce, coupon, cart total, discount, auto coupon
 Requires at least: 5.0
 Tested up to: 6.5
@@ -16,7 +16,7 @@ This plugin adds a simple WooCommerce setting to automatically apply a coupon if
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/auto-apply-coupon-amount/` directory, or install it through the WordPress plugins screen.
+1. Upload the plugin files to the `/wp-content/plugins/auto-apply-coupon-by-cart-total/` directory, or install it through the WordPress plugins screen.
 2. Activate the plugin.
 3. Go to WooCommerce > Settings > Auto Apply Coupon to configure.
 

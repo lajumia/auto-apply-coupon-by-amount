@@ -4,11 +4,11 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-class AACAW_Settings extends WC_Settings_Page {
+class AACBCT_Settings extends WC_Settings_Page {
 
     public function __construct() {
-        $this->id    = 'aacaw';
-        $this->label = __( 'Auto Apply Coupon', 'auto-apply-coupon' );
+        $this->id    = 'aacbct';
+        $this->label = __( 'Auto Apply Coupon', 'aacbct' );
 
         parent::__construct();
 
@@ -22,12 +22,12 @@ class AACAW_Settings extends WC_Settings_Page {
             [
                 'title' => __( 'Auto Apply Coupon Settings', 'auto-apply-coupon' ),
                 'type'  => 'title',
-                'id'    => 'aacaw_settings',
+                'id'    => 'aacbct_settings',
             ],
             [
                 'title'    => __( 'Coupon Code', 'auto-apply-coupon' ),
                 'desc'     => __( 'Enter the coupon code to apply automatically.', 'auto-apply-coupon' ),
-                'id'       => 'aacaw_coupon_code',
+                'id'       => 'aacbct_coupon_code',
                 'type'     => 'text',
                 'default'  => '',
                 'desc_tip' => true,
@@ -35,7 +35,7 @@ class AACAW_Settings extends WC_Settings_Page {
             [
                 'title'    => __( 'Minimum Cart Total ($)', 'auto-apply-coupon' ),
                 'desc'     => __( 'Cart subtotal must be greater than or equal to this amount to apply the coupon.', 'auto-apply-coupon' ),
-                'id'       => 'aacaw_min_total',
+                'id'       => 'aacbct_min_total',
                 'type'     => 'number',
                 'default'  => '',
                 'desc_tip' => true,
@@ -46,7 +46,7 @@ class AACAW_Settings extends WC_Settings_Page {
             ],
             [
                 'type' => 'sectionend',
-                'id'   => 'aacaw_settings',
+                'id'   => 'aacbct_settings',
             ],
         ];
     }
