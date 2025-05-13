@@ -57,7 +57,7 @@ The coupon will be automatically removed.
 ---
 
 ## Screenshots
-[Screenshot](https://github.com/lajumia/auto-apply-coupon-by-cart-total/blob/main/Screenshot.png)
+![Screenshot](https://github.com/lajumia/auto-apply-coupon-by-cart-total/blob/main/Screenshot.png?raw=true)
 
 1. Plugin settings under WooCommerce > Settings > Advanced.  
 2. Cart with auto-applied coupon.
