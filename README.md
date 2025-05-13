@@ -53,12 +53,11 @@ No. You need to create the coupon in **WooCommerce > Marketing > Coupons** first
 ### What happens if the cart total drops below the threshold?
 The coupon will be automatically removed.
 
-### Can users still remove the coupon manually?
-Yes, but the plugin will respect their choice during that session and not re-apply it unless the cart total falls below the threshold and rises again.
 
 ---
 
 ## Screenshots
+[Screenshot](https://github.com/lajumia/auto-apply-coupon-by-cart-total/blob/main/Screenshot.png)
 
 1. Plugin settings under WooCommerce > Settings > Advanced.  
 2. Cart with auto-applied coupon.
