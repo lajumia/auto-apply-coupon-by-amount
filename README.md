@@ -89,6 +89,3 @@ Developed by [Md Laju Miah](https://www.upwork.com/freelancers/~0149190c8d83bae2
 This plugin is licensed under the [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html).
 ```
 
-You can copy this content into a `readme.md` file and include it in your plugin’s root directory for GitHub or Codeberg, etc.
-
-Would you like a full ZIP-ready plugin folder now?
